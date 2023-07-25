@@ -23,7 +23,7 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
+                        clifford: '#B68C5A',
                     }
                 }
             }
@@ -41,9 +41,9 @@
 </head>
 
 <body>
-    <header class="container mx-auto">
+    <header class="container mx-auto px-32 max-md:px-0">
         <!-- navbar -->
-        <nav class="flex justify-between items-center max-md:block text-center max-md:justify-center">
+        <nav class="flex justify-between items-center max-md:block text-center max-md:justify-center my-10">
             <div class="flex gap-5 items-center font-garamond max-md:flex max-md:justify-center">
                 <img src="images/business.png" alt="">
                 <h1 class="text-[#414040] font-extrabold text-4xl font-garamond">Justice</h1>
@@ -80,7 +80,19 @@
             </ul>
             <button class="px-7 py-4  max-md:mt-5 bg-[#B68C5A] rounded-lg font-poppins font-semibold text-lg text-white">Free Consultation</button>
         </nav>
-        
+        <div class="hero min-h-screen" style="background-image: url(images/banner.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold text-center">We Provide Effective <br> Legal Solutions</h1>
+                <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div class="flex gap-5">
+                    <input class="px-28 rounded-xl text-left max-sm:w-5 max-md:w-96" type="text" placeholder="Search your services">
+                    <button class="btn btn-primary bg-[#B68C5A] border-[#B68C5A]">Search</button>
+                </div>
+              </div>
+            </div>
+        </div>
     </header>
     <main></main>
     <footer></footer>
